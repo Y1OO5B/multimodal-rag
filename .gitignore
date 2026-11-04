@@ -1,0 +1,13 @@
+# 가상환경 (requirements 파일로 복원 가능)
+.venv/
+venv/
+
+# API 키
+.env
+
+# 자동 생성 파일
+__pycache__/
+.ipynb_checkpoints/
+
+# 벡터 DB 등 실행 결과물
+chroma_db/
