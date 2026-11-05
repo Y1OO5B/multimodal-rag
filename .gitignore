@@ -1,13 +1,25 @@
-# 가상환경 (requirements 파일로 복원 가능)
+# 가상환경
 .venv/
-venv/
 
-# API 키
+# 환경변수 (API 키 노출 방지)
 .env
 
-# 자동 생성 파일
+# 추출 이미지 (용량 폭증 방지)
+data/figures/
+*.pdf
+
+# 벡터 DB
+chroma_db/
+
+# 파이썬
 __pycache__/
+*.py[cod]
 .ipynb_checkpoints/
 
-# 벡터 DB 등 실행 결과물
-chroma_db/
+# 에디터
+.vscode/
+.idea/
+.DS_Store
+# 중간 결과 (pkl)
+data/processed/
+*.pkl
