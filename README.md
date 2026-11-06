@@ -1,5 +1,4 @@
-git clone <저장소 주소>
-cd multimodal-rag
+# 요즘 공부중입니다^^
 
 # 가상환경 생성 및 활성화
 python -m venv .venv
